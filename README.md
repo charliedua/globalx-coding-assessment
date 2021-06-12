@@ -1,2 +1,3 @@
-# globalx-coding-assessment
+# GlobalX Coding Assessment
+
 Coding assessment for GlobalX
