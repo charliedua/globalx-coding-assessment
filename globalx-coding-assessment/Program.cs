@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using NameSorter;
 
 namespace globalx_coding_assessment
 {
@@ -41,7 +42,7 @@ namespace globalx_coding_assessment
                 }
             }
 
-            NameSorter sorter = new NameSorter(Names);
+            NameSorter.NameSorter sorter = new NameSorter.NameSorter(Names);
 
             // sort by last name
             sorter.sort();

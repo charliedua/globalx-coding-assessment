@@ -6,4 +6,7 @@
     <RootNamespace>globalx_coding_assessment</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../NameSorter/NameSorter.csproj" />
+  </ItemGroup>
 </Project>

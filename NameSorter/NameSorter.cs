@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace globalx_coding_assessment
+namespace NameSorter
 {
     public class NameSorter
     // Main class for sorting names

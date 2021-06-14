@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace globalx_coding_assessment
+namespace NameSorter
 {
     public class Name : IComparable<Name>
     // Stores the name
