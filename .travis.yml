@@ -3,7 +3,8 @@ mono: none
 dist: xenial
 dotnet: 5.0
 install:
-  - dotnet restore
+  - make restore
 
 script:
-  - dotnet build
+  - make build
+  - make test
