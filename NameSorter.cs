@@ -5,6 +5,7 @@ using System.IO;
 namespace globalx_coding_assessment
 {
     public class NameSorter
+    // Main class for sorting names
     {
         public List<Name> Names { get; private set; }
 
@@ -14,11 +15,13 @@ namespace globalx_coding_assessment
         }
 
         public void sort()
+        // Sorts the List by last name
         {
             Names.Sort();
         }
 
         public void print()
+        // Writes the names onto the Console
         {
             foreach (var name in Names)
             {
@@ -27,6 +30,7 @@ namespace globalx_coding_assessment
         }
         
         public void writeToFile(string filename)
+        // Writes the names to file given filename
         {
             using (StreamWriter sw = File.CreateText(filename))
             {
@@ -36,5 +40,6 @@ namespace globalx_coding_assessment
                 }
             }
         }
+
     }
 }
